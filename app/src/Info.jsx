@@ -279,6 +279,7 @@ const Info = () => {
           </div>
         </div>
         <div className="major">{info.major}</div>
+        <br></br>
         <ul>
           <li className="gpa">GPA: {info.gpa}</li>
           <br></br>
