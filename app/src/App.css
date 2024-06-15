@@ -5,6 +5,35 @@
   text-align: center;
 }
 
+.bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 120vh;
+  object-fit: cover;
+}
+
+.info {
+  float: left;
+}
+
+.cv {
+  float: right;
+  margin-left: 150px;
+  border: 1px solid black;
+  height: 600px;
+  width: calc(600px / 1.4142);
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 3px 3px gray;
+}
+
+.submit {
+  position: relative;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +68,91 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.name {
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.email-and-phone {
+  font-size: 10px;
+}
+
+hr {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.education-title {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.school-name {
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+.school-and-dates {
+  display: flex;
+  justify-content: space-between;
+}
+
+.start-end-school {
+  margin-right: 25px;
+  font-size: 15px;
+}
+
+.major {
+  float: left;
+  margin-left: 25px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.gpa {
+  float: left;
+  font-size: 10px;
+}
+
+.experience-title {
+  font-weight: bold;
+}
+
+.company-and-dates {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company {
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+.start-end-work {
+  margin-right: 25px;
+  font-size: 15px;
+}
+
+.position {
+  float: left;
+  margin-left: 25px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+ul {
+  float: left;
+  font-size: 10px;
+  margin-right: 25px;
+}
+
+.achievements {
+  text-align: left;
+}
+
+.responsibilities {
+  text-align: left;
 }
