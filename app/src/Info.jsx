@@ -67,7 +67,7 @@ const Info = () => {
     <>
       <img
         className="bg"
-        src="https://i.pinimg.com/736x/3e/b8/57/3eb857b24ce77662a6a1ff3498ed8198.jpg"
+        src="https://i.pinimg.com/564x/2a/04/80/2a04804a3d9d0b7b9158db38b4be26b4.jpg"
       />
       <div className="info">
         <h3>General Information:</h3>
